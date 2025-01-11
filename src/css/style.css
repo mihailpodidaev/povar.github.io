@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* line 1, ../портфолио повара/src/sass/style.sass */
+body {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../портфолио повара/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* line 11, ../портфолио повара/src/sass/style.sass */
+.main-section {
+  position: relative;
+}
+
+/* line 14, ../портфолио повара/src/sass/style.sass */
+.main-section__img-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* line 19, ../портфолио повара/src/sass/style.sass */
+.main-section__photo {
+  width: 768px;
+  height: 780px;
+}
+
+/* line 23, ../портфолио повара/src/sass/style.sass */
+.main-section__tittle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: 35%;
+  left: 778px;
+  transform: translateY(-50%);
+}
+
+/* line 32, ../портфолио повара/src/sass/style.sass */
+.main-section__tittle-2 {
+  width: 466px;
+  font-size: 40px;
+  margin: 0;
+}
+
+/* line 37, ../портфолио повара/src/sass/style.sass */
+.tittle-one {
+  font-size: 72px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+/* line 42, ../портфолио повара/src/sass/style.sass */
+.title-two {
+  font-size: 40px;
+  margin: 0;
+  text-align: left;
+}
+
+/* line 47, ../портфолио повара/src/sass/style.sass */
+.line {
+  border: 0.5px solid black;
+  width: 100%;
+  position: absolute;
+  top: calc(100% + 22px);
+  left: 0;
+  margin-bottom: 5px;
+}
+
+/* line 55, ../портфолио повара/src/sass/style.sass */
+.conect {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: calc(100% - 77px);
+  left: calc(768px + 15px);
+}
+
+/* line 62, ../портфолио повара/src/sass/style.sass */
+.second-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* line 67, ../портфолио повара/src/sass/style.sass */
+.second-section__kitchen {
+  width: 286px;
+  height: 408px;
+}
+
+/* line 71, ../портфолио повара/src/sass/style.sass */
+p {
+  font-size: 18px;
+}
+
+/* line 75, ../портфолио повара/src/sass/style.sass */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 196px;
+  margin-top: 30px;
+}
+
+/* line 81, ../портфолио повара/src/sass/style.sass */
+.button {
+  width: 238px;
+  height: 67px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  line-height: 67px;
+}
+
+/*# sourceMappingURL=style.css.map */
